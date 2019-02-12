@@ -1,0 +1,18 @@
+{
+  "addresses": [
+    { "id": 1, "value": "Грозный", "parent_id": "0" },
+    { "id": 2, "value": "Гудермес", "parent_id": "0" },
+    { "id": 3, "value": "Сайханова", "parent_id": "1" },
+    { "id": 4, "value": "Путина", "parent_id": "2" },
+    { "id": 5, "value": "1", "parent_id": "3" },
+    { "id": 6, "value": "2", "parent_id": "3" },
+    { "id": 7, "value": "1", "parent_id": "4" }
+  ],
+  "inventory": [
+    { "id": 1, "value": "Компьютеры", "count": 3, "addresseId": 5 },
+    { "id": 2, "value": "Компьютеры", "count": 3, "addresseId": 6 },
+    { "id": 3, "value": "Ноутбуки", "count": 7, "addresseId": 6 },
+    { "id": 4, "value": "Компьютер", "count": 10, "addresseId": 7 },
+    { "id": 5, "value": "Принтеры", "count": 5, "addresseId": 7 }
+  ]
+}
